@@ -61,3 +61,15 @@ footer{
     }
   }
 }
+
+.form-container{
+  .form-group {
+    text-align: start;
+  }
+  .form-label-container{
+    float:left;
+  }
+  .form-input-container{
+    display: inline-block;
+  }
+}

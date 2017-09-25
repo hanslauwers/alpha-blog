@@ -2,6 +2,20 @@
   background-color: black;
 }
 
+.offset-md-2{
+  margin-left: 16.667%;
+}
+.offset-md-3{
+  margin-left: 25%;
+}
+.offset-md-4{
+  margin-left: 33.333%;
+}
+
+.row{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
 
 @import "bootstrap";
 
@@ -63,11 +77,6 @@
   padding-top: 5px;
 }
 
-.card{
-  .description{
-    margin-top: 10px;
-  }
-}
 footer{
   margin-top: 45px;
   border-top: 1px solid black;

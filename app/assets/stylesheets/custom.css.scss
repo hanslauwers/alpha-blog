@@ -109,3 +109,10 @@ footer{
     display: inline-block;
   }
 }
+
+/*Custom css for pagination*/
+.digg_pagination{
+  ul.pagination{
+    margin: auto;
+  }
+}

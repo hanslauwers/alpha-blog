@@ -8,6 +8,10 @@ gem 'rails', '4.2.5'
 # Use bcrypt for authentication mechanism
 gem 'bcrypt', '~> 3.1.7'
 
+# Use will_paginate for pagination in views
+gem 'will_paginate', '~> 3.1.0'
+gem 'bootstrap-will_paginate', '0.0.10'
+
 # Use SCSS for stylesheets
 gem 'bootstrap', '~> 4.0.0.beta'
 gem 'sass-rails', '~> 5.0'

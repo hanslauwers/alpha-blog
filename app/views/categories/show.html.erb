@@ -1,5 +1,10 @@
 <h1 align="center"><%= "Category: #{@category.name}" %></h1>
 
+<% if logged_in? && current_user.admin? %>
+  <span class="badge badge-primary">
+      <%= link_to "Edit category", edit_category_path(@category), class: "edit-category-link" %>
+  </span>
+<% end %>
 <div align="center" class="digg_pagination">
   <%= will_paginate @category_articles%>
 </div>

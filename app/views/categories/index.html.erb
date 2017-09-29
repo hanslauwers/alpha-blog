@@ -12,6 +12,13 @@
             <%= link_to category.name, category_path(category) %>
           </div>
         </li>
+        <li>
+          <div align="center">
+            <small>
+              <%= pluralize(category.articles.count, "article") %>
+            </small>
+          </div>
+        </li>
       </div>
     </div>
   </ul>

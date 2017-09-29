@@ -86,6 +86,15 @@
   list-style: none;
 }
 
+.badge{
+  a{
+    color:white;
+    :hover{
+      color:white;
+    }
+  }
+}
+
 footer{
   margin-top: 45px;
   border-top: 1px solid black;
